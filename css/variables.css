@@ -1,0 +1,36 @@
+:root {
+    /* -- Colors -- */
+    --bg-color: #050505;
+    --bg-grid: #0a0a0a;
+    --text-primary: #ffffff;
+    --text-secondary: #aaaaaa;
+    
+    /* Neon Accents */
+    --cyan: #00f3ff;
+    --green: #00ff9d;
+    --purple: #bd00ff;
+    --red: #ff0055;
+    --yellow: #faff00;
+    
+    /* Glassmorphism */
+    --glass-bg: rgba(255, 255, 255, 0.03);
+    --glass-border: rgba(255, 255, 255, 0.05);
+    --glass-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+
+    /* Typography */
+    /* Orbitron for Headers, Exo 2 or Roboto for body */
+    --font-heading: 'Orbitron', sans-serif;
+    --font-body: 'Exo 2', sans-serif;
+    --font-mono: 'Share Tech Mono', monospace;
+    
+    /* Spacing */
+    --spacing-xs: 0.5rem;
+    --spacing-sm: 1rem;
+    --spacing-md: 2rem;
+    --spacing-lg: 4rem;
+    --spacing-xl: 8rem;
+
+    /* Transitions */
+    --transition-speed: 0.3s;
+    --ease-out-back: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
